@@ -42,7 +42,7 @@ Analog is a secure messaging application designed for both Android and iOS platf
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
