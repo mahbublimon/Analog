@@ -13,12 +13,6 @@
 - **File Sharing:** Share files securely within your chats.
 - **Work Communities:** Create and manage work communities for better team collaboration.
 
-## Demo
-
-[![Analog Demo](https://your-image-link.com)](https://your-demo-link.com)
-
-Check out the live demo [here](https://your-demo-link.com).
-
 ## Installation
 
 To run Analog locally, follow these steps:
