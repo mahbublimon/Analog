@@ -1,49 +1,79 @@
 # Analog
 
-Analog is a secure messaging application designed for both Android and iOS platforms. It features user authentication, real-time messaging, and offline messaging capabilities.
+**Analog** is a modern, secure messaging web application designed for seamless communication and collaboration. It includes features such as message encryption, file sharing, voice messaging, group creation, meeting scheduling, and customizable themes. Analog is perfect for team collaboration, whether you're working in an office or remotely.
 
 ## Features
 
-### User Authentication
+- **Secure Messaging:** End-to-end encryption ensures your messages remain private.
+- **Stories:** Share updates or announcements via stories.
+- **Voice & Video Calls:** Stay connected with real-time voice and video calls.
+- **Active Status:** See who's online and available.
+- **Dark/Light Mode:** Switch between dark and light themes based on your preference.
+- **Group Creation & Meetings:** Create groups, schedule meetings, and collaborate with ease.
+- **File Sharing:** Share files securely within your chats.
+- **Work Communities:** Create and manage work communities for better team collaboration.
 
-- **Registration**: Users can register using their email and password.
-- **Login**: Users can log in using their email and password to access the messaging functionality.
-- **Token-Based Authentication**: Secure authentication using JSON Web Tokens (JWT) to protect user sessions.
+## Demo
 
-### Messaging
+[![Analog Demo](https://your-image-link.com)](https://your-demo-link.com)
 
-- **Real-Time Messaging**: Users can send and receive messages in real-time using Socket.io.
-- **Offline Messaging**: Messages can be stored locally and synchronized once the device is back online.
-- **Bluetooth Messaging**: (Planned feature) Messages can be sent over Bluetooth within a 100-meter range, providing an additional communication channel in areas without internet connectivity.
+Check out the live demo [here](https://your-demo-link.com).
 
-### Security
+## Installation
 
-- **Encryption**: All communications are fully encrypted to ensure user privacy and data security.
-- **Secure Storage**: Sensitive user information, such as passwords, is securely stored using industry-standard encryption algorithms.
+To run Analog locally, follow these steps:
 
-### User Interface
+### Prerequisites
 
-- **React Native**: Built using React Native to provide a consistent and responsive user interface across both Android and iOS platforms.
-- **Intuitive Design**: User-friendly design focused on simplicity and ease of use.
+- Node.js (v14.x or higher)
+- npm (v6.x or higher)
 
-### Notifications
+### Setup
 
-- **Push Notifications**: (Planned feature) Users receive push notifications for new messages even when the app is not actively in use.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/analog.git
+    cd analog
+    ```
 
-### Additional Features
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-- **User Status**: (Planned feature) Indicates whether a user is online or offline.
-- **Message Delivery Status**: (Planned feature) Indicates whether a message has been sent, delivered, or read.
-- **Group Chats**: (Planned feature) Allows users to create and participate in group chats.
+3. Start the server:
+    ```bash
+    node server.js
+    ```
 
-## Screenshots
+4. Open your browser and visit:
+    ```
+    http://localhost:3000/
+    ```
 
-<!-- Add screenshots of the app here -->
+## Usage
+
+- **Messaging:** Send text messages and share files within your chat groups.
+- **Voice Messages:** Record and send voice messages.
+- **Meetings:** Schedule and join meetings from within the app.
+- **Customization:** Toggle between dark and light mode according to your preference.
+
+## Contribution
+
+We welcome contributions to Analog! Here's how you can contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Create a pull request.
+
+Please ensure your pull request adheres to the following guidelines:
+
+- Use descriptive commit messages.
+- Follow the project's coding style.
+- Ensure all tests pass before submitting.
 
 ## License
 
-This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details.
-
----
-
-For more information, feel free to contact the project maintainers.
+Analog is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for more details.
