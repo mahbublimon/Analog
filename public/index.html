@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1>CH</h1>
+            </div>
+            <div class="sidebar-menu">
+                <button>All Chats</button>
+                <button>Meet</button>
+                <button>Calendar</button>
+                <button>Rating</button>
+                <button>Saved</button>
+            </div>
+        </aside>
+
+        <main class="main-chat">
+            <header class="chat-header">
+                <input type="text" placeholder="Search">
+            </header>
+
+            <section class="chat-section">
+                <div class="chat-list">
+                    <div class="chat-item active">
+                        <div class="chat-item-content">
+                            <p>Office chat</p>
+                            <span>4m ago</span>
+                        </div>
+                    </div>
+                    <div class="chat-item">
+                        <div class="chat-item-content">
+                            <p>Harry Fettel</p>
+                            <span>15m ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-window" id="messages">
+                    <!-- Chat messages will be appended here -->
+                </div>
+
+                <div class="message-input">
+                    <input id="messageInput" type="text" placeholder="Your message">
+                    <button id="sendButton">Send</button>
+                </div>
+            </section>
+        </main>
+
+        <aside class="chat-details">
+            <h2>Chat Details</h2>
+            <div class="chat-details-content">
+                <div class="photos-videos">
+                    <h3>Photos and Videos</h3>
+                </div>
+                <div class="shared-files">
+                    <h3>Shared Files</h3>
+                </div>
+                <div class="shared-links">
+                    <h3>Shared Links</h3>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
